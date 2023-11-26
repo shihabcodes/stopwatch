@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#timeContainer {
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+#timeDisplay {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.timerBtn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.timerBtn:hover {
+  background-color: #45a049;
+}
